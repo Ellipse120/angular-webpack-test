@@ -26,3 +26,6 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+# 折腾webpack ，经过 `ng eject`, 生产了webpack.config.js 文件，cli.json也增加了 `eject: true` 字段. package.json文件也加入了其它依赖，需要 `npm install`.
+# 因此，项目 build: `npm run build` ; test: `npm test`; run: `npm start`; 运行protractor: `npm run e3e`.
